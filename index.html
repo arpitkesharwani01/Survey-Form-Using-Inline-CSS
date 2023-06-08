@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="shortcut icon" href="icons8-application-form-24.png" type="image/x-icon">
+</head>
+<body style="background-color: rgb(176, 190, 98); text-align: center;">
+    <div>
+        <h1 style="text-align: center; "><ins>Survey Form</ins></h1>
+    </div>
+
+    <form style="background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" placeholder="Enter your name" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="emali">Email Id:</label>
+            <input type="email" id="email" placeholder="Enter your email id" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+        </div>
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="contact">PhoneNo.:</label>
+            <input type="tel" id="contact" placeholder="Enter your mobile number" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="age">Age:</label>
+            <input type="text" id="age" placeholder="Enter your age" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+        </div>
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="address">Address:</label>
+            <input type="text" id="address" placeholder="Enter your address" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="role">which option best describe you</label>
+            <select name="role" id="role" style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;">
+                <option value="studen">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px; display: inline-block;">
+            <label>Would you recommend to fill this form to your friend? </label>
+            
+                <input type="radio" name="radio" id="recommend1" checked="checked">
+            <label for="recommend1">Yes</label>
+    
+            <label for="recommend2">
+                <input type="radio" id="recommend2" name="radio" >No</input>
+            </label>
+    
+            <label for="recommend3">
+                <input type="radio" id="recommend3" name="radio">May be</input>
+            </label>
+        
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px; display: inline-block;">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply):</small>
+            </label>
+            <br>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Spring</input></label>
+        </div>
+    
+        <div style="text-align: left; margin-bottom: 25px;">
+            <label for="text">Type your comment..</label>
+            <textarea name="" id="text" cols="30" rows="10" placeholder="Enter your comment here....." style="border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;"></textarea>
+        </div>
+    
+        <button id="submit" value="submit" style="background-color: #05c46b;
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        font-size: 21px;
+        display: block;
+        width: 100%;
+        margin: 50px 0px 20px 0px;">Submit</button>
+    </form>
+    
+        
+    
+</body>
+</html>
